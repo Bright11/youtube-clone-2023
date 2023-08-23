@@ -1,0 +1,52 @@
+.main{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main .videosdiv{
+    margin-bottom: 50px;
+}
+.main .videosdiv .myvideos-holder{
+    width: 350px;
+    height: 200px;
+    position: relative;
+}
+.main .videosdiv .myvideos-holder video{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px !important;
+    box-shadow: 0px 7px 30px -20px !important;
+}
+
+.content-info{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.content-info .user-logo img{
+width: 50px;
+height: 50px;
+border-radius: 100%;
+object-fit: cover;
+}
+
+.videodetails{
+    display: flex;
+    flex-direction: column;
+}
+.videosdiv a{
+    text-decoration: none;
+    color: rgb(8, 7, 7);
+}
+.viewsdiv{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/*  */
+
+

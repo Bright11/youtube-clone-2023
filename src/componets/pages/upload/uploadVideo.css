@@ -1,0 +1,36 @@
+
+
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form form input,textarea{
+    padding: 8px;
+    outline: none;
+    width: 50%;
+    resize: none;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.form form button{
+    padding: 8px;
+    outline: none;
+    width: 50%;
+   background-color: red;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}

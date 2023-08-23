@@ -1,0 +1,162 @@
+
+.navbar-section{
+    margin-bottom: 100px;
+    background-color: white !important;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    width: 90vw !important;
+    z-index: 99;
+    background-color: white !important;
+}
+.leftbar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.leftbar a img{
+    width: 50px;
+}
+
+.centerbar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 70% !important;
+ 
+}
+
+    /* background-color: #F0F0F0; */
+  .form-topbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90% !important;
+    background-color: #F0F0F0; 
+    height: 50px;
+    border: 1px solid  #F0F0F0; 
+    padding: 8px;
+    border-radius: 100px !important;
+  }
+.form-topbar input{
+   width: 95% !important;
+   padding: 10px 8px;
+   outline: none;
+   border: none;
+   border-radius: 100px !important;
+}
+
+.searchbar button{
+    width: 5%;
+    padding: 15px 8px;
+    border: none;
+    border-radius: 100px !important;
+    height: 100%;
+  justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.centerbar button{
+    border: none;
+    padding: 8px;
+    background-color: #F0F0F0;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.rightbar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.rightbar button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.rightbar a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.closesearchbar{
+    display: none;
+}
+  .closesearchbtnbar{
+    background-color: transparent;
+    border: none;
+    display: none;
+
+  }
+
+.chosholderdiv{
+    position: relative;
+}
+
+.choseupload{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   left: 0;
+   right: 100px;
+   z-index: 99;
+   background-color:white;
+}
+.showupload{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   left: 0;
+   right: 100px;
+   width: max-content;
+   padding: 10px;
+}
+.showupload a{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media screen and (max-width:768px){
+    .centerbar{
+        display: none;
+       }
+   .closesearchbtnbar{
+    display: block;
+   }
+   .mobile{
+    position: absolute;
+    width: 90vw !important;
+    margin: 0px auto;
+    z-index: 99;
+    display: flex !important;
+    align-items: center;
+    gap: 20px;
+   }
+   
+   .showbtn{
+    display: block;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+   }
+ 
+
+   .closesearchbar{
+    display: block;
+   }
+ 
+}
